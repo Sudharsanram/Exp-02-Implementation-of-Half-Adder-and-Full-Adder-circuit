@@ -36,18 +36,18 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
-```
-HALF ADDER
 
+## HALF ADDER
+```
 module exphalf(a,b,sum,carry);
 input a,b;
 output sum,carry;
 xor(sum,a,b);
 and(carry,a,b);
 endmodule
-
-FULL ADDER
-
+```
+## FULL ADDER
+```
 module expfull(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
